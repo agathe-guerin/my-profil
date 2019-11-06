@@ -1,0 +1,128 @@
+body{
+	font-family: 'Montserrat', sans-serif; 
+	background-image: url(images/photofond2.jpeg);
+	background-size: cover;
+	color: #575F7D;
+	text-align: center;
+	font-weight: 100;
+	font-style: 16px
+}
+
+h1, h2, a:hover {
+	color: #B4275A;
+}
+
+h1{
+	font-size: 30;
+	text-align: center;
+	text-align: center;
+	line-height: 30px; 
+	letter-spacing: 3px;
+	font-family: helvetica;
+}
+
+h2{
+	text-align: center
+	font-size: 24px;
+	font-weight:  lighter;
+}
+
+
+a{ 
+	text-decoration: none;
+	font-weight : bold;
+}
+
+.whitelink{
+	color: white;
+}
+
+.followme{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 30px;
+}
+.Banner1-2{
+	background-color: #CC6A87;
+	padding: 20px;
+	width : 200px;
+	margin: 0 auto;
+	border-radius: 4px;
+	box-shadow: 2px 2px 3px grey;
+
+}
+
+.Banner1 {
+	background-color: rgba(255,255,255,0.95);
+	padding: 50px;
+	width : 60%;
+	margin: 10px auto;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.2)
+
+}
+
+.Banner2{
+	background-color: rgba(255,255,255,0.80);
+	padding: 50px;
+	width : 50%;
+	margin: 10px auto;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.2)
+}
+
+.Banner3{
+	background-color: rgba(255,255,255,0.70);
+	padding: 50px;
+	width : 40%;
+	margin: 10px auto;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.2)
+}
+
+.Banner4{
+	background-color: rgba(255,255,255,0.60);
+	padding: 50px;
+	width : 30%;
+	margin: 10px auto;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.2)
+}
+.Banner5{
+	background-color: rgba(255,255,255,0.50);
+	padding: 50px;
+	width : 15%;
+	margin: 10px auto;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.2)
+
+}
+
+#photoprofil{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.2);
+
+}
+
+
+@media(max-width: 760px){	
+	.Banner1 {
+		margin: 0;
+		width: auto;
+	}	
+	.Banner2, .Banner3, .Banner4, .Banner5{
+		margin: 10px 0;
+		width: auto;
+	}
+}
+
+
+@media(max-width: 500px){
+
+.Banner1,.Banner2,.Banner3, .Banner4,.Banner5, {
+		width: 600px;
+		
+	}
+}
